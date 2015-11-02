@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8"/>
+
+</head>
+
+<body>
+
+	<form>
+
+	<p>Usuário:  <input type="text" name="tnome" id="cnome" required size="20" maxlength="20"/> 
+
+	Senha: <input type="password" name="tsenha" id="csenha" required maxlength="8" pattern="[a-zA-Z0-9]{8}"/></p>
+
+	<p>Telefone:  <input type="tel" title="Preencha como neste exemplo: (012) 1234-5678" required maxlength="15" pattern="\([0-9]{3}\) [0-9]{4}-[0-9]{4}$" placeholder="(XXX) XXXX-XXXX"/> 
+
+	E-mail: <input type="email" name="temail" id="cemail" required /></p>
+
+	<p>WebSite: <input type="text" title="Preencha como no exemplo: www.seusite.com.br" name="tsite" id="csite" placeholder="www.exemplo.com.br"/></p>
+
+	<p>Data Nascimento <input type="date" name="tdata" id="cdata"/>
+
+	Hora Nascimento <input type="text" name="thora" id="chora"/></p>
+
+	<p>Cor dos olhos: <input type="color" name="tcor" id="ccor"/></p>
+
+	<p>Foto: <input type="file" accept="image/*" value="Escolher arquivo"/></p>
+
+	<p> <fieldset id="civil"><legend>Estado Civil:</legend></p>
+
+			<input type="radio" name="tcivil" id="ccasado"/> Casado <br/>
+			<input type="radio" name="tcivil" id="csolteiro"/> Solteiro</fieldset>
+
+	<p></p>
+
+	<input type="submit" value="validar"/> 
+
+	<input type="button" value="Enviar"/>
+
+	 <input type="button" value="Limpar"/>
+
+
+  </form>
+
+</body>
+
+</html>
